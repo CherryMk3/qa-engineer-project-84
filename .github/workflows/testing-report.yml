@@ -1,1 +1,40 @@
+---
+- summary: |
+    Поиск товара по ключевому слову
+  status: pass
+  
+- summary: |
+    Поиск товара по категориям
+  status: pass
 
+- summary: |
+    Поиск товара по фильтру "Производитель"
+  status: pass
+
+- summary: |
+    Поиск товара по фильтру "В наличии"
+  status: fail
+
+- summary: |
+    Поиск товара по фильтру "Цена" 
+  status: pass  
+
+- summary: |
+    Добвление товара в карзину 
+  status: pass
+
+- summary: |
+    Смена языка интерфейса 
+  status: fail
+
+- summary: |
+    Просмотр таваров 
+  status: pass
+
+- summary: |
+    Сброс фильтров 
+  status: fail
+
+- summary: |
+    Выбор количества товаров
+  status: fail
