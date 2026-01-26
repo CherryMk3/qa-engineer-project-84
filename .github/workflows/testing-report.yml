@@ -38,3 +38,7 @@
 - summary: |
     Выбор количества товаров
   status: fail
+
+- summary: |
+    Сумма товаров в карзине
+  status: fail
