@@ -56,5 +56,18 @@
   actual-result: |
     Сумма товаров расчитывается не верно 
 
-    
+- summary: |
+    Отображение сайта на мобильном устройстве
+  environment: |
+    Google Chrome   144.0.7559.97 (официальная сборка) (64 бит)
+    Windows 10 22H2 (сборка 19045.6456)
+  steps-to-reproduce: |
+    1. Зайти на страницу https://products-store.hexlet.app/
+    2. открыть DevTools 
+    3. Выбрать "Dimensions: Iphone SE
+    4. Кликнуть "Карзина"
+  expected-result: |
+    Должна отобразиться сайт адаптированная под мобильное устройство
+  actual-result: |
+    Интерфес сайта съехал
     
