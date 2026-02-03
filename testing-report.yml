@@ -17,7 +17,7 @@
 
 - summary: |
     Поиск товара по фильтру "Цена" 
-  status: pass  
+  status: fail
 
 - summary: |
     Добвление товара в карзину 
