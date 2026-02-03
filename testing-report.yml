@@ -29,7 +29,7 @@
 
 - summary: |
     Просмотр таваров 
-  status: pass
+  status: fail
 
 - summary: |
     Сброс фильтров 
