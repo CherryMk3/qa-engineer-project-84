@@ -5,7 +5,8 @@
     Пользователь должен иметь возможность искать товары по ключевому слову 
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Нажимаем по окну "Поиск"
     - Вводим запрос , например : "Lip"
@@ -18,7 +19,8 @@
     Пользователь должен иметь возможность искать товары по категориям
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Нажимаем по кнопке "Категория"
     - Выбираем любую категорию
@@ -31,7 +33,8 @@
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Выбрать любой производитель в фильтрах
   expected-result: |
@@ -43,7 +46,8 @@
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Поставить галочку в пункте "В наличии"
   expected-result: |
@@ -55,7 +59,8 @@
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - В поле "цена от" вписать цифру например: 12
     - В поле "цена до" вписать цифру например: 16
@@ -68,7 +73,8 @@
     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Выбрать тавар и нажать кнопку "В корзину"
     - Нажать кнопку "Корзина"
@@ -81,7 +87,8 @@
     Пользователь должен иметь возможность переключить язык интерфейса
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Нажать кнопку "Язык"
     - Выбрать любой язык
@@ -94,7 +101,8 @@
     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - На главной странице кликнуть по тавару
   expected-result: |
@@ -106,7 +114,8 @@
     Пользователь должен иметь возможность сбросить фильтры
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Нажать снопку сбросить 
   expected-result: |
@@ -118,7 +127,8 @@
     Пользователь должен иметь возможность выбрать количество товаров
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Выбрать тавар
     - Нажать "В корзину"
@@ -133,7 +143,8 @@
     Пользователь должен иметь возможность выбрать количество товаров
   prerequisites: |
     Открыт сайт на главной странице https://products-store.hexlet.app/
-  test-data:
+  test-data: |
+    Empty
   steps:
     - Выбрать тавар
     - Нажать "В корзину"
