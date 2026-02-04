@@ -2,15 +2,15 @@
 test-cases:
 - summary: |
     Поиск товара по ключевому слову
-  status: pass
+  status: fail
   
 - summary: |
     Поиск товара по категориям
-  status: pass
+  status: fail
 
 - summary: |
     Поиск товара по фильтру "Производитель"
-  status: pass
+  status: fail
 
 - summary: |
     Поиск товара по фильтру "В наличии"
@@ -37,11 +37,30 @@ test-cases:
   status: fail
 
 - summary: |
+    Сумма товаров в карзине
+  status: pass
+- summary: |
     Выбор количества товаров
   status: fail
 
 - summary: |
     Сумма товаров в карзине
+  status: fail
+
+- summary: |
+    Удаление товаров из корзины
+  status: pass
+
+- summary: |
+    Очистка корзины и продолжение покупки из нее
+  status: pass
+
+- summary: |
+    Покупка на сайте
+  status: pass
+
+- summary: |
+    Постраничный просмотр товаров
   status: pass
 
 bugreports:
