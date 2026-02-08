@@ -33,7 +33,7 @@
 
 - summary: |
     Просмотр таваров 
-  status: fail
+  status: pass
 
 - summary: |
     Сумма товаров в корзине 
