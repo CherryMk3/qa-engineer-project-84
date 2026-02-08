@@ -1,5 +1,4 @@
 ---
-test-cases:
 - summary: |
     Поиск товара по ключевому слову
   status: fail
@@ -25,34 +24,39 @@ test-cases:
   status: pass
 
 - summary: |
-    Смена языка интерфейса 
+    Смена языка интерфейса на Русский язык
   status: fail
+  
+- summary: |
+    Смена языка интерфейса на Английский язык
+  status: pass
 
 - summary: |
     Просмотр таваров 
   status: pass
 
 - summary: |
-    Сброс фильтров 
-  status: fail
-
-- summary: |
-    Сумма товаров в карзине
+    Сумма товаров в корзине 
   status: pass
+  
 - summary: |
-    Выбор количества товаров
-  status: fail
-
-- summary: |
-    Сумма товаров в карзине
-  status: fail
-
-- summary: |
-    Удаление товаров из корзины
+    Удаление товара из корзины 
   status: pass
 
 - summary: |
-    Очистка корзины и продолжение покупки из нее
+    Очистка корзины 
+  status: fail
+
+- summary: |
+    Продолжение покупки из корзины  
+  status: pass
+
+- summary: |
+    Добавление нескольких одинаковых товаров в корзину 
+  status: pass
+
+- summary: |
+    Добавление нескольких разных товаров в корзину 
   status: pass
 
 - summary: |
@@ -62,7 +66,15 @@ test-cases:
 - summary: |
     Постраничный просмотр товаров
   status: pass
+  
+- summary: |
+    Проверка отправление запросов на сервер при покупке тавара
+  status: fail
 
+- summary: |
+    Негативная проверка строки поиска
+  status: fail
+  
 bugreports:
 - summary: |
     Сбрасывается язык
@@ -148,3 +160,16 @@ bugreports:
     Откроется список всех товаров 
   actual-result: |
     Открывается список всех товаров но пропадает кнопка "Следующая"    
+
+- summary: |
+    Негативная проверка строки поиска
+  environment: |
+    Google Chrome   144.0.7559.97 (официальная сборка) (64 бит)
+    Windows 10 22H2 (сборка 19045.6456)
+  steps-to-reproduce: |
+    1. Зайти на страницу https://products-store.hexlet.app/
+    2. Написать "Поиск" в строке поиска
+  expected-result: |
+    Сообщение о том что ничего не найдено
+  actual-result: |
+    Отображается каталог товаро
