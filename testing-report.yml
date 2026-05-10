@@ -29,7 +29,7 @@
   
 - summary: |
     Смена языка интерфейса на Английский язык
-  status: fail
+  status: pass
 
 - summary: |
     Просмотр таваров 
@@ -57,7 +57,7 @@
 
 - summary: |
     Добавление нескольких разных товаров в корзину 
-  status: fail
+  status: pass
 
 - summary: |
     Покупка на сайте
@@ -73,4 +73,20 @@
 
 - summary: |
     Негативная проверка строки поиска
+  status: pass
+
+- summary: |
+    Добавление одного товара в корзину и продолжение просмотра каталога
+  status: pass
+  
+- summary: |
+    Продолжение покупок из страницы корзины
+  status: pass
+
+- summary: |
+    Оформление заказа с переходом на страницу оплаты
+  status: fail
+
+- summary: |
+    Проверка хранения корзины в localStorage/sessionStorage
   status: pass
