@@ -20,7 +20,7 @@
   status: fail
 
 - summary: |
-    Добвление товара в карзину 
+    Добавление товара в корзину 
   status: pass
 
 - summary: |
@@ -32,7 +32,7 @@
   status: pass
 
 - summary: |
-    Просмотр таваров 
+    Просмотр товаров 
   status: pass
 
 - summary: |
@@ -68,7 +68,7 @@
   status: pass
   
 - summary: |
-    Проверка отправление запросов на сервер при покупке тавара
+    Проверка отправление запросов на сервер при покупке товара
   status: fail
 
 - summary: |
@@ -90,3 +90,5 @@
 - summary: |
     Проверка хранения корзины в localStorage/sessionStorage
   status: pass
+
+
