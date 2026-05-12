@@ -29,7 +29,7 @@
   
 - summary: |
     Смена языка интерфейса на Английский язык
-  status: pass
+  status: fail
 
 - summary: |
     Просмотр товаров 
@@ -57,7 +57,7 @@
 
 - summary: |
     Добавление нескольких разных товаров в корзину 
-  status: pass
+  status: fail
 
 - summary: |
     Покупка на сайте
